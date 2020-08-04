@@ -53,6 +53,9 @@ hash -d ysi=~/projects/YSI/services
 # Alias
 alias ..="cd .."
 
+# copy content from file to clipfolder
+alias cf="xclip -sel c"
+
 alias vim=nvim
 alias sa="eval '$(ssh-agent -s)' && ssh-add ~/.ssh/id_rsa"
 
